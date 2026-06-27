@@ -1,0 +1,12 @@
+Paso,Descripción,Filas,Nulos,Retención (%)
+1,Dataset original cargado,8160,753,100.0
+2,Eliminación de duplicados,8034,627,98.46
+3,Normalización subscription_plan,8034,627,98.46
+4,Normalización country,8034,627,98.46
+5,Normalización favorite_genre,8034,627,98.46
+6,Imputación favorite_genre con moda,8034,513,98.46
+7,Eliminación nulos last_login_date,7714,193,94.53
+8,Eliminación fechas inválidas,7265,193,89.03
+9,Imputación monthly_watch_time_mins con mediana,7265,0,89.03
+10,Eliminación outliers monthly_watch_time_mins,7027,0,86.12
+11,Eliminación valores negativos customer_support_tickets,7003,0,85.82
