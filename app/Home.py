@@ -1,13 +1,13 @@
 import streamlit as st
 
-# ── CONFIGURACIÓN DE LA PÁGINA ────────────────────────────────────────────
+# ── CONFIGURACIÓN DE LA PÁGINA ──
 st.set_page_config(
     page_title="Proyecto Integrador - Minería de Datos I",
     page_icon="📊",
     layout="wide"
 )
 
-# ── CSS PERSONALIZADO ─────────────────────────────────────────────────────
+# ── CSS ──
 st.markdown("""
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -43,18 +43,18 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# ── BANNER ────────────────────────────────────────────────────────────────
+# ── BANNER ──
 st.image("https://raw.githubusercontent.com/Danielafz/PI_Mineria_Datos_I/main/app/assets/Gemini_Generated_Image_cnoe92cnoe92cnoe.png", use_container_width=True)
 
 st.divider()
 
-# ── TÍTULO ────────────────────────────────────────────────────────────────
+# ── TÍTULO ──
 st.title("📊 Proyecto Integrador - Minería de Datos I")
 st.subheader("Análisis de usuarios de una plataforma de streaming")
 
 st.divider()
 
-# ── INFORMACIÓN DEL PROYECTO ──────────────────────────────────────────────
+# ── INFORMACIÓN DEL PROYECTO ──
 col1, col2 = st.columns(2)
 
 with col1:
@@ -80,7 +80,7 @@ with col2:
 
 st.divider()
 
-# ── CONTEXTO ──────────────────────────────────────────────────────────────
+# ── CONTEXTO ──
 st.markdown("""
 <div class="info-card">
     <h3>🔍 Contexto del proyecto</h3>
@@ -95,7 +95,7 @@ st.markdown("""
 
 st.divider()
 
-# ── ENLACE AL REPOSITORIO ─────────────────────────────────────────────────
+# ── ENLACE AL REPOSITORIO ──
 st.markdown("""
 <div class="info-card">
     <h3>🔗 Repositorio</h3>
